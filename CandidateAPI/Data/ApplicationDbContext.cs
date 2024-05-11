@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using CandidateAPI.Models;
-using CandidateAPI.Models;
 
 namespace CandidateAPI.Data
 {
