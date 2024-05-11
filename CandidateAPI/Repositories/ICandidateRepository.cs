@@ -2,11 +2,14 @@
 using System.Threading.Tasks;
 using CandidateAPI.Models;
 
-public interface ICandidateRepository
+namespace CandidateAPI.Repositories
 {
-    Task<IEnumerable<Candidate>> GetAllCandidatesAsync();
-    Task<Candidate> GetCandidateByIdAsync(int id);
-    Task<Candidate> AddCandidateAsync(Candidate candidate);
-    Task UpdateCandidateAsync(Candidate candidate);
-    Task DeleteCandidateAsync(int id);
+    public interface ICandidateRepository
+    {
+        Task<IEnumerable<Candidate>> GetAllCandidatesAsync();
+        Task<Candidate> GetCandidateByIdAsync(int id);
+        Task<Candidate> AddCandidateAsync(Candidate candidate);
+        Task UpdateCandidateAsync(Candidate candidate);
+        Task DeleteCandidateAsync(int id);
+    }
 }

@@ -1,4 +1,5 @@
 using CandidateAPI.Data;
+using CandidateAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
