@@ -74,3 +74,24 @@ To run the tests, navigate to the test directory and use:
 
 
 The results will indicate which tests have passed and which have failed, with detailed outputs for failures.
+
+
+# Deliverables Checklist
+
+## Source Code
+
+- All source code is maintained in a version-controlled repository.
+
+## Documentation
+
+- **API Documentation:** Comprehensive documentation of all API endpoints and their usage is provided.
+- **Unit Testing Documentation:** Detailed documentation of the unit testing approach, test cases, and outcomes for the CandidateAPI.
+
+
+## Total Time Spent
+
+- The total time spent on the task is recorded to provide insight into the development effort:
+  - Time spent coding and debugging (4 hrs).
+  - Time spent on writing documentation and tests (2hrs).
+
+
