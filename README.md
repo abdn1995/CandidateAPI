@@ -8,7 +8,7 @@ The Candidate API allows for the management of candidate information in a databa
 
 Assuming the API is deployed locally, the base URL could be:
 
-`http://localhost:5001/api`
+`http://localhost:5000/api`
 
 ### Endpoints
 
